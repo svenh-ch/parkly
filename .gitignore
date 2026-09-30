@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.expo/
+ios/
+android/
+*.log
+.DS_Store
+supabase/.branches
+supabase/.temp
+supabase/signing_keys.json
+coverage/
+
+# Lokale Archive und Testdaten (nicht ins Git)
+_archiv/
+.dev-storage/
+*.tar.gz

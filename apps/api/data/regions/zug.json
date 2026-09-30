@@ -1,0 +1,1174 @@
+{
+ "region": {
+  "slug": "zug",
+  "name": "Zug",
+  "center": [
+   47.1724,
+   8.5174
+  ],
+  "bounds": [
+   47.08,
+   8.39,
+   47.25,
+   8.66
+  ]
+ },
+ "sources": [
+  {
+   "key": "zg_pls_standorte",
+   "name": "Parkleitsystem Zug: Parkhäuser (Namen, Adressen)",
+   "license": "Fakten; Koordinaten via swisstopo (OGD)",
+   "attribution": "Standorte: Parkleitsystem Zug, verortet mit © swisstopo",
+   "url": "https://www.pls-zug.ch"
+  },
+  {
+   "key": "zg_ogd_parkplatzkataster",
+   "name": "Stadt Zug: Parkplatzkataster",
+   "license": "opendata.swiss terms_by",
+   "attribution": "Quelle: Stadt Zug, Parkplatzkataster (Open Government Data)",
+   "url": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  }
+ ],
+ "facilities": [
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-altstadt-casino",
+   "name": "Parkhaus Altstadt Casino",
+   "facilityType": "GARAGE",
+   "street": "Zugerbergstrasse",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.16422,
+   "lng": 8.51485,
+   "capacity": null,
+   "openingHours": "Mo-Su 00:00-24:00",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": "Altstadt Casino",
+   "tariffs": [
+    {
+     "label": "Bis 1 Std.",
+     "amount": 150,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 2 Std.",
+     "amount": 300,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 3 Std.",
+     "amount": 450,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 4 Std.",
+     "amount": 600,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 5 Std.",
+     "amount": 800,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 6 Std.",
+     "amount": 1000,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 7 Std.",
+     "amount": 1200,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 8 Std.",
+     "amount": 1400,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Jede weitere Stunde",
+     "amount": 300,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Höchsttarif 24 Std.",
+     "amount": 2900,
+     "unit": "DAY"
+    },
+    {
+     "label": "Dauerparkplatz (Monat)",
+     "amount": 21000,
+     "unit": "MONTH"
+    },
+    {
+     "label": "Tagesparkplatz 05–19.30 Uhr (Monat)",
+     "amount": 17000,
+     "unit": "MONTH"
+    }
+   ],
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://stadtzug.ch/de/mobilitaet/parkieren"
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-an-der-aa",
+   "name": "Parkhaus An der Aa",
+   "facilityType": "GARAGE",
+   "street": "Aabachstrasse 1",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.17384,
+   "lng": 8.51033,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "An der Aa",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-arena",
+   "name": "Parkhaus Arena",
+   "facilityType": "GARAGE",
+   "street": "General-Guisan-Strasse 4",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.17661,
+   "lng": 8.50729,
+   "capacity": null,
+   "openingHours": "Mo-Su 00:00-24:00",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": "Arena",
+   "tariffs": [
+    {
+     "label": "Bis 1 Std.",
+     "amount": 150,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 2 Std.",
+     "amount": 300,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 3 Std.",
+     "amount": 450,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 4 Std.",
+     "amount": 600,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 5 Std.",
+     "amount": 800,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 6 Std.",
+     "amount": 1000,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 7 Std.",
+     "amount": 1200,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 8 Std.",
+     "amount": 1400,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Jede weitere Stunde",
+     "amount": 300,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Höchsttarif 24 Std.",
+     "amount": 2900,
+     "unit": "DAY"
+    },
+    {
+     "label": "Dauerparkplatz (Monat)",
+     "amount": 21000,
+     "unit": "MONTH"
+    },
+    {
+     "label": "Tagesparkplatz 05–19.30 Uhr (Monat)",
+     "amount": 17000,
+     "unit": "MONTH"
+    }
+   ],
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://stadtzug.ch/de/mobilitaet/parkieren"
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-athene",
+   "name": "Parkhaus Athene",
+   "facilityType": "GARAGE",
+   "street": "Mänibachstrasse 5",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.1609,
+   "lng": 8.51412,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Athene",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-bundesplatz",
+   "name": "Parkplatz Bundesplatz",
+   "facilityType": "LOT",
+   "street": "Alpenstrasse",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.171824,
+   "lng": 8.514821,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Bundesplatz",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-coop-city",
+   "name": "Parkhaus Coop City",
+   "facilityType": "GARAGE",
+   "street": "Bundesplatz 11-17",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.17138,
+   "lng": 8.51433,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Coop City",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-foyer",
+   "name": "Parkhaus Foyer",
+   "facilityType": "GARAGE",
+   "street": "Gubelstrasse 30",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.17554,
+   "lng": 8.51226,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Foyer",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-frauensteinmatt",
+   "name": "Parkhaus Frauensteinmatt",
+   "facilityType": "GARAGE",
+   "street": "Frauensteinmatt (Hofstrasse)",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.16341,
+   "lng": 8.51562,
+   "capacity": null,
+   "openingHours": "Mo-Su 00:00-24:00",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": "Frauensteinmatt",
+   "tariffs": [
+    {
+     "label": "Bis 1 Std.",
+     "amount": 150,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 2 Std.",
+     "amount": 300,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 3 Std.",
+     "amount": 450,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 4 Std.",
+     "amount": 600,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 5 Std.",
+     "amount": 800,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 6 Std.",
+     "amount": 1000,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 7 Std.",
+     "amount": 1200,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 8 Std.",
+     "amount": 1400,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Jede weitere Stunde",
+     "amount": 300,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Höchsttarif 24 Std.",
+     "amount": 2900,
+     "unit": "DAY"
+    },
+    {
+     "label": "Dauerparkplatz (Monat)",
+     "amount": 21000,
+     "unit": "MONTH"
+    },
+    {
+     "label": "Tagesparkplatz 05–19.30 Uhr (Monat)",
+     "amount": 17000,
+     "unit": "MONTH"
+    }
+   ],
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://stadtzug.ch/de/mobilitaet/parkieren"
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-gibz",
+   "name": "Parkhaus GIBZ",
+   "facilityType": "GARAGE",
+   "street": "Baarerstrasse 100",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.17898,
+   "lng": 8.51882,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "GIBZ",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-hafen-ost",
+   "name": "Parkplatz Hafen Ost",
+   "facilityType": "LOT",
+   "street": "Hafenweg",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.173091,
+   "lng": 8.505916,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Hafen Ost",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-hafen-west",
+   "name": "Parkplatz Hafen West",
+   "facilityType": "LOT",
+   "street": "Hafenweg",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.173267,
+   "lng": 8.505252,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Hafen West",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-metalli-parkhotel",
+   "name": "Parkhaus Metalli / Parkhotel",
+   "facilityType": "GARAGE",
+   "street": "Industriestrasse 15b",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.17289,
+   "lng": 8.51786,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Metalli / Parkhotel",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-neustadtplatz",
+   "name": "Parkhaus Neustadtplatz",
+   "facilityType": "GARAGE",
+   "street": "Bundesstrasse 4",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.17225,
+   "lng": 8.51231,
+   "capacity": null,
+   "openingHours": "Mo-Su 00:00-24:00",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": "Neustadtplatz",
+   "tariffs": [
+    {
+     "label": "Bis 1 Std.",
+     "amount": 150,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 2 Std.",
+     "amount": 300,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 3 Std.",
+     "amount": 450,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 4 Std.",
+     "amount": 600,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 5 Std.",
+     "amount": 800,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 6 Std.",
+     "amount": 1000,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 7 Std.",
+     "amount": 1200,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Bis 8 Std.",
+     "amount": 1400,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Jede weitere Stunde",
+     "amount": 300,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Höchsttarif 24 Std.",
+     "amount": 2900,
+     "unit": "DAY"
+    },
+    {
+     "label": "Dauerparkplatz (Monat)",
+     "amount": 21000,
+     "unit": "MONTH"
+    },
+    {
+     "label": "Tagesparkplatz 05–19.30 Uhr (Monat)",
+     "amount": 17000,
+     "unit": "MONTH"
+    }
+   ],
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://stadtzug.ch/de/mobilitaet/parkieren"
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-postplatz",
+   "name": "Parkhaus Postplatz",
+   "facilityType": "GARAGE",
+   "street": "Poststrasse 4a",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.16828,
+   "lng": 8.51638,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Postplatz",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-siemens",
+   "name": "Parkhaus Siemens",
+   "facilityType": "GARAGE",
+   "street": "Dammstrasse 20/22",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.17698,
+   "lng": 8.51484,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Siemens",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-stadion-p1",
+   "name": "Parkplatz Stadion P1",
+   "facilityType": "LOT",
+   "street": "Allmendstrasse",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.179,
+   "lng": 8.5077,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Stadion P1",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-stadion-p2",
+   "name": "Parkplatz Stadion P2",
+   "facilityType": "LOT",
+   "street": "Feldstrasse",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.1817,
+   "lng": 8.5089,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Stadion P2",
+   "tariffs": []
+  },
+  {
+   "source": "zg_pls_standorte",
+   "externalId": "zg-pls-vorstadt",
+   "name": "Parkhaus Vorstadt",
+   "facilityType": "GARAGE",
+   "street": "Schmidgasse",
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.16917,
+   "lng": 8.51549,
+   "capacity": null,
+   "openingHours": null,
+   "website": "https://www.pls-zug.ch",
+   "operator": null,
+   "liveKey": "Vorstadt",
+   "tariffs": []
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-schoenegg",
+   "name": "Parkplatz Schoenegg",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.151121,
+   "lng": 8.52099,
+   "capacity": 16,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 6 h",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "6 h"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-letzistrasse-sued-pp-west",
+   "name": "Parkplatz Letzistrasse Sued / PP West",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.178499,
+   "lng": 8.501182,
+   "capacity": 19,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 2 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P + Zonenkarte",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "2 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-loeberenstrasse-loreto",
+   "name": "Parkplatz Loeberenstrasse/Loreto",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.171478,
+   "lng": 8.523373,
+   "capacity": 26,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 2 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P + Zonenkarte",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "2 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-allmendstrasse-fussballstadion-sektor-a",
+   "name": "Parkplatz Allmendstrasse/ Fussballstadion Sektor A",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.178334,
+   "lng": 8.507513,
+   "capacity": 64,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 5 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Pro Tag",
+     "amount": 800,
+     "unit": "DAY"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "5 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-waldheimstrasse",
+   "name": "Parkplatz Waldheimstrasse",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.159945,
+   "lng": 8.521237,
+   "capacity": 18,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 2 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Pro Tag",
+     "amount": 800,
+     "unit": "DAY"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "2 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-bruder-klausen-weg",
+   "name": "Parkplatz Bruder-Klausen-Weg",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.14904,
+   "lng": 8.507575,
+   "capacity": 15,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 2 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Pro Tag",
+     "amount": 800,
+     "unit": "DAY"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P + Zonenkarte",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "2 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-allmendstrasse-leichtathletikstadion-sektor-c",
+   "name": "Parkplatz Allmendstrasse / Leichtathletikstadion Sektor C",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.179648,
+   "lng": 8.507923,
+   "capacity": 48,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 5 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Pro Tag",
+     "amount": 800,
+     "unit": "DAY"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "5 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-chamer-fussweg-schiessstand-choller",
+   "name": "Parkplatz Chamer Fussweg / Schiessstand Choller",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.181398,
+   "lng": 8.481975,
+   "capacity": 49,
+   "openingHours": "Parkscheibe Mo - Fr, 07:00 bis 17:00; max. 8 h",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [],
+   "attributes": {
+    "bewirtschaftung": "Parkscheibe",
+    "tage": "Mo - Fr",
+    "zeiten": "07:00 bis 17:00",
+    "maxParkzeit": "8 h"
+   }
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-chollerstrasse-via-steinhauserstrasse",
+   "name": "Parkplatz Chollerstrasse / via Steinhauserstrasse",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.185315,
+   "lng": 8.489424,
+   "capacity": 16,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 5 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Pro Tag",
+     "amount": 800,
+     "unit": "DAY"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P + Zonenkarte",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "5 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-dammstrasse-nord-parkfelder-ost-und-west",
+   "name": "Parkplatz Dammstrasse Nord / Parkfelder Ost und West",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.176669,
+   "lng": 8.514649,
+   "capacity": 37,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 2 h",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "2 h"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-dammplatz",
+   "name": "Parkplatz Dammplatz",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.1744,
+   "lng": 8.514755,
+   "capacity": 23,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 2 h",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 200,
+     "unit": "HOUR"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "2 h"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-chamerstrasse-zufahrt-brueggli",
+   "name": "Parkplatz Chamerstrasse, Zufahrt Brueggli",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.178327,
+   "lng": 8.493588,
+   "capacity": 66,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 5 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Pro Tag",
+     "amount": 800,
+     "unit": "DAY"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "5 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-dammweg-west",
+   "name": "Parkplatz Dammweg West",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.173706,
+   "lng": 8.514366,
+   "capacity": 26,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 30 Min.",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 200,
+     "unit": "HOUR"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "30 Min."
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-allmendstrasse-leichtathletikstadion-sektor-b",
+   "name": "Parkplatz Allmendstrasse / Leichtathletikstadion Sektor B",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.17907,
+   "lng": 8.507747,
+   "capacity": 48,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 5 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Pro Tag",
+     "amount": 800,
+     "unit": "DAY"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "5 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-feldstrasse-herti-nord",
+   "name": "Parkplatz Feldstrasse/Herti Nord",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.181677,
+   "lng": 8.509469,
+   "capacity": 53,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 5 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P + Zonenkarte",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "5 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-postplatz-unterer",
+   "name": "Parkplatz Postplatz unterer",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.167812,
+   "lng": 8.515317,
+   "capacity": 23,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 2 h",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 200,
+     "unit": "HOUR"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "2 h"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-im-rank",
+   "name": "Parkplatz Im Rank",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.18067,
+   "lng": 8.489336,
+   "capacity": 65,
+   "openingHours": "Parkscheibe Mo - Fr, 07:00 bis 19:00; max. 2 h",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [],
+   "attributes": {
+    "bewirtschaftung": "Parkscheibe + Zonenkarte",
+    "tage": "Mo - Fr",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "2 h"
+   }
+  },
+  {
+   "source": "zg_ogd_parkplatzkataster",
+   "externalId": "zg-kat-theilerplatz",
+   "name": "Parkplatz Theilerplatz",
+   "facilityType": "LOT",
+   "street": null,
+   "postalCode": "6300",
+   "city": "Zug",
+   "lat": 47.178161,
+   "lng": 8.514674,
+   "capacity": 145,
+   "openingHours": "Gebührenpflichtig Mo - Sa, 07:00 bis 19:00; max. 5 Tag(e)",
+   "website": "https://stadtzug.ch/de/mobilitaet/parkieren",
+   "operator": "Stadt Zug",
+   "liveKey": null,
+   "tariffs": [
+    {
+     "label": "Pro Stunde",
+     "amount": 100,
+     "unit": "HOUR"
+    },
+    {
+     "label": "Pro Tag",
+     "amount": 800,
+     "unit": "DAY"
+    }
+   ],
+   "attributes": {
+    "bewirtschaftung": "Parkuhr von IEM P",
+    "tage": "Mo - Sa",
+    "zeiten": "07:00 bis 19:00",
+    "maxParkzeit": "5 Tag(e)"
+   },
+   "tariffsAsOf": "2026-09-30",
+   "tariffsSourceUrl": "https://opendata.swiss/de/dataset/parkplatzkataster-stadt-zug"
+  }
+ ]
+}

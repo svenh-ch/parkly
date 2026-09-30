@@ -1,0 +1,487 @@
+{
+ "type": "FeatureCollection",
+ "name": "zuerich-parkleitsystem",
+ "metadata": {
+  "description": "Standorte der Parkhäuser des Parkleitsystems Stadt Zürich. Belegung live aus dem PLS-Feed (CC0).",
+  "source": "ParkAPI (offenesdresden/ParkAPI, park_api/cities/Zuerich.geojson)",
+  "license": "MIT (Datei), Belegungsdaten CC0 (PLS Parkleitsystem Zürich AG)"
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.544743,
+     47.376579
+    ]
+   },
+   "properties": {
+    "name": "Parkgarage am Central",
+    "capacity": 50
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.540748,
+     47.414848
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Accu",
+    "capacity": 194
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.509675,
+     47.379458
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Albisriederplatz",
+    "capacity": 66
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.535761,
+     47.367417
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Bleicherweg",
+    "capacity": 275
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.540263,
+     47.412805
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Center Eleven",
+    "capacity": 342
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.533806,
+     47.374211
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus City Parking",
+    "capacity": 620
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.540662,
+     47.410876
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Cityport",
+    "capacity": 153
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.550214,
+     47.407194
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Dorflinde",
+    "capacity": 98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.55344,
+     47.360644
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Feldegg",
+    "capacity": 346
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.537618,
+     47.375773
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Globus",
+    "capacity": 178
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.510323,
+     47.380354
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Hardau II",
+    "capacity": 982
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.537886,
+     47.381218
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Hauptbahnhof",
+    "capacity": 176
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.547632,
+     47.368666
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Hohe Promenade",
+    "capacity": 556
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.536227,
+     47.373847
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Jelmoli",
+    "capacity": 222
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.543973,
+     47.413423
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Jungholz",
+    "capacity": 124
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.539274,
+     47.414062
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Max-Bill-Platz",
+    "capacity": 59
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.553929,
+     47.413568
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Messe Zürich AG",
+    "capacity": 2000
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.547353,
+     47.411839
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Nordhaus",
+    "capacity": 175
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.536066,
+     47.413199
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Octavo",
+    "capacity": 123
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.511443,
+     47.391929
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus P West",
+    "capacity": 1000
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.536077,
+     47.36586
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Park Hyatt",
+    "capacity": 267
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.539574,
+     47.412654
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Parkside",
+    "capacity": 38
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.51633,
+     47.38715
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Pfingstweid",
+    "capacity": 276
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.539633,
+     47.38699
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Stampfenbach",
+    "capacity": 237
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.535883,
+     47.372177
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Talgarten",
+    "capacity": 110
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.549702,
+     47.378781
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus USZ Nord",
+    "capacity": 90
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.547235,
+     47.397478
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Uni Irchel",
+    "capacity": 1227
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.540615,
+     47.374112
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Urania",
+    "capacity": 607
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.547986,
+     47.361727
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Utoquai",
+    "capacity": 175
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.545035,
+     47.4105
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Züri 11 Shopping",
+    "capacity": 60
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.553629,
+     47.356073
+    ]
+   },
+   "properties": {
+    "name": "Parkhaus Zürichhorn",
+    "capacity": 245
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.505049,
+     47.382326
+    ]
+   },
+   "properties": {
+    "name": "Parkplatz Bienen",
+    "capacity": 110
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.552577,
+     47.415573
+    ]
+   },
+   "properties": {
+    "name": "Parkplatz Eisfeld",
+    "capacity": 240
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.551411,
+     47.37479
+    ]
+   },
+   "properties": {
+    "name": "Parkplatz USZ Süd",
+    "capacity": 80
+   }
+  }
+ ]
+}

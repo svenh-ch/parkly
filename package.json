@@ -1,0 +1,23 @@
+{
+  "name": "parking",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "db:start": "supabase start",
+    "db:stop": "supabase stop",
+    "db:migrate": "pnpm --filter @parking/api db:migrate",
+    "db:seed": "pnpm --filter @parking/api db:seed",
+    "api": "pnpm --filter @parking/api dev",
+    "mobile": "pnpm --filter @parking/mobile start",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "supabase": "^2.118.0",
+    "typescript": "~6.0.3"
+  }
+}

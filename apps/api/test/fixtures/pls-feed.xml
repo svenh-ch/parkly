@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>FEED Parkleitsystem Stadt Zürich</title>
+    <link>https://www.pls-zh.ch/plsFeed/rss/</link>
+    <copyright>Nutzungsbedingungen entsprechen der Creative-Commons-Null-Lizenz (CC-0)</copyright>
+    <item>
+      <title>Parkhaus Accu / Otto-Schütz-Weg</title>
+      <link>https://www.pls-zh.ch/parkhaus/accu.jsp?pid=accu</link>
+      <description>open /  171</description>
+      <pubDate>Tue, 29 Sep 2026 19:36:21 GMT</pubDate>
+      <guid>https://www.pls-zh.ch/parkhaus/accu.jsp?pid=accu</guid>
+      <dc:date>2026-09-29T19:36:21Z</dc:date>
+    </item>
+    <item>
+      <title>Parkhaus Albisriederplatz / Badenerstrasse 380</title>
+      <link>https://www.pls-zh.ch/parkhaus/albisriederplatz.jsp?pid=albisriederplatz</link>
+      <description>open /   48</description>
+      <pubDate>Tue, 29 Sep 2026 19:29:20 GMT</pubDate>
+      <dc:date>2026-09-29T19:29:20Z</dc:date>
+    </item>
+    <item>
+      <title>Parkhaus Bleicherweg / Beethovenstrasse 35</title>
+      <link>https://www.pls-zh.ch/parkhaus/bleicherweg.jsp?pid=bleicherweg</link>
+      <description>closed /    0</description>
+      <dc:date>2026-09-29T19:59:31Z</dc:date>
+    </item>
+    <item>
+      <title>Parkhaus Opéra / Schillerstrasse 5</title>
+      <link>https://www.pls-zh.ch/parkhaus/opera.jsp?pid=opera</link>
+      <description>? / </description>
+      <dc:date>2026-09-29T19:59:31Z</dc:date>
+    </item>
+    <item>
+      <title>Parkgarage am Central / Seilergraben</title>
+      <link>https://www.pls-zh.ch/parkhaus/central.jsp?pid=central</link>
+      <description>open /   12</description>
+      <dc:date>2026-09-29T20:01:00Z</dc:date>
+    </item>
+  </channel>
+</rss>
