@@ -26,7 +26,7 @@ docs/           Architektur und Roadmap
 1. Docker Desktop öffnen (Wal-Symbol in der Menüleiste muss ruhig sein)
 2. Im Terminal:
    ```bash
-   cd ~/Desktop/"Parking "
+   cd parkly   # in den Projektordner wechseln
    pnpm dev
    ```
    Startet Datenbank, spielt neue Migrationen und Stammdaten ein, startet die API im Hintergrund
